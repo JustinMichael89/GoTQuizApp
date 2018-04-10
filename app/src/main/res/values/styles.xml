@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/carroisgothiccs_regular</item>
+
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+
+    </style>
+
+    <!-- Here we define some custom style attributes for our quiz appearance -->
+
+    <style name="ToolbarStyle" parent="@style/Base.Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/textColor</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/answerFontSize</item>
+        <item name="android:fontFamily">@font/carroisgothiccs_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/answerFontSize</item>
+        <item name="android:fontFamily">@font/carroisgothiccs_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+</resources>

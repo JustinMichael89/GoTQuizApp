@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Setting indents for questions & answers here to minimise redundant code -->
+
+<resources>
+    <dimen name="answerFontSize">18sp</dimen>
+    <dimen name="answerStdMargin">16dp</dimen>
+    <dimen name="questionStdMargin">8dp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">GoT Quiz App</string>
+
+
+    <!-- Questions & Answers -->
+    <string name="question1">What is the surname given to bastards born in Dorne?</string>
+    <string name="question1Option1">Flower</string>
+    <string name="question1Option2">Sand</string>
+    <string name="question1Option3">Flea</string>
+    <string name="question1Option4">Scab</string>
+
+    <string name="question2">Who was Margaery Tyrell\'s First husband?</string>
+    <string name="question2Option1">Marcyell Storm</string>
+    <string name="question2Option2">Jon Snow</string>
+    <string name="question2Option3">Renly Baratheon</string>
+    <string name="question2Option4">The Mountain</string>
+
+    <string name="question3">Who is known as "The-King-Beyond-the-Wall?"</string>
+    <string name="question3Option1">Mance Rayder</string>
+    <string name="question3Option2">Theon Greyjoy</string>
+    <string name="question3Option3">Lord Mormont</string>
+    <string name="question3Option4">Ned Stark</string>
+
+    <string name="question4">What city do Maesters train in?</string>
+    <string name="question4Option1">Fleabottom</string>
+    <string name="question4Option2">Oldtown</string>
+    <string name="question4Option3">Highgarden</string>
+    <string name="question4Option4">The Twins</string>
+
+    <string name="question5">What are the names of Daenerys\' dragons?</string>
+    <string name="question5Option1">Drogon</string>
+    <string name="question5Option2">Trogdor</string>
+    <string name="question5Option3">Viserion</string>
+    <string name="question5Option4">Rhaegal</string>
+    <string name="question5Option5">Paarthurnax</string>
+
+    <string name="question6">Which of these names belong to the Stark children?</string>
+    <string name="question6Option1">Sansa</string>
+    <string name="question6Option2">Brom</string>
+    <string name="question6Option3">Rickon</string>
+    <string name="question6Option4">Peter</string>
+    <string name="question6Option5">Robb</string>
+
+
+    <!-- End of Questions & Answers -->
+
+    <!-- Quiz Results -->
+
+    <string name="answerSubmit">Submit</string>
+    <string name="badResult">You know nothing, Jon Snow. Your score is <xliff:g id="score" example="0">%d</xliff:g></string>
+    <string name="okayResult">Maybe you should re-watch or read the books again. You have <xliff:g id="score" example="3">%d points</xliff:g></string>
+    <string name="perfectResult">You crushed it like The Mountain crushes skulls! You have a perfect score!</string>
+
+    <!-- End of Quiz Results -->
+
+</resources>
